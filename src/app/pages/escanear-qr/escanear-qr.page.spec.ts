@@ -5,7 +5,7 @@ describe('EscanearQRPage', () => {
   let component: EscanearQRPage;
   let fixture: ComponentFixture<EscanearQRPage>;
 
-  beforeEach(async(() => {
+  beforeEach((() => {
     fixture = TestBed.createComponent(EscanearQRPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
